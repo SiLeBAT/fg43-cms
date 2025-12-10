@@ -1,7 +1,7 @@
 module.exports = {
     apps: [
       {
-        name: 'zoonotify-cms',
+        name: 'fg43support-cms',
         script: 'npm',
         args: 'start',
         interpreter:'node@18.20.5',
