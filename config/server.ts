@@ -5,4 +5,7 @@ export default ({ env }) => ({
   app: {
     keys: env.array('APP_KEYS'),
   },
+  proxy: {
+    koa: true,  // tells Koa to trust X-Forwarded-* headers from the proxy
+  },
 });
