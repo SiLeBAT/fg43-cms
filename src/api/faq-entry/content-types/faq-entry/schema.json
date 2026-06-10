@@ -26,6 +26,9 @@
       "relation": "manyToOne",
       "target": "api::faq-section.faq-section",
       "inversedBy": "faq_entries"
+    },
+    "Priority": {
+      "type": "biginteger"
     }
   }
 }
