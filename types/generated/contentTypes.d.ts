@@ -452,6 +452,7 @@ export interface ApiFaqEntryFaqEntry extends Struct.CollectionTypeSchema {
       'api::faq-entry.faq-entry'
     > &
       Schema.Attribute.Private;
+    Priority: Schema.Attribute.BigInteger;
     publishedAt: Schema.Attribute.DateTime;
     question: Schema.Attribute.String;
     section: Schema.Attribute.Relation<
@@ -488,6 +489,7 @@ export interface ApiFaqSectionFaqSection extends Struct.CollectionTypeSchema {
       'api::faq-section.faq-section'
     > &
       Schema.Attribute.Private;
+    Priority: Schema.Attribute.BigInteger;
     publishedAt: Schema.Attribute.DateTime;
     title: Schema.Attribute.String & Schema.Attribute.Required;
     updatedAt: Schema.Attribute.DateTime;
